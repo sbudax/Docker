@@ -1,0 +1,8 @@
+docker run -d --name lair -p 8080:80 --link spawning-pool:mysql wordpress
+
+/*
+1.Runs a container in -d detached mode.
+2.--name assigning the name lair to the container.
+3.-p attach port.
+4.--link add a link to another container.
+*/

@@ -1,0 +1,6 @@
+docker network create --driver overlay overmind
+
+/*
+1.creates an overlay network
+2.--driver/-d driver to manage the network
+*/

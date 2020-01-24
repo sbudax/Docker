@@ -1,0 +1,9 @@
+docker run --name overlord -d -p 5000:80 --restart always nginx
+
+/*
+1.docker run, runs the container.
+2. --name identifies/specifies the image in which the container derives from
+3.-d(detached mode),containers started in detached mode exit when the root process used to run the container exits.
+4.-p 5000:80 attach 80 port to the 5000 port of Char.
+5.--restart always nginx
+*/

@@ -1,0 +1,5 @@
+docker-machine ip Char
+
+/*
+1.using docker-machine ip we can get the IP address of Char
+*/

@@ -1,0 +1,5 @@
+docker pull hello-world
+
+/*
+1.Pulls the hello-world image from Docker Hub.
+*/

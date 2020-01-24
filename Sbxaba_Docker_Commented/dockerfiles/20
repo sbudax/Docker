@@ -1,0 +1,6 @@
+docker swarm init --advertise-addr $(docker-machine ip Char)
+
+/*
+1.Creates a swarm and makes Char its manager using its ip address
+2.--advertise-addr advertised address
+*/

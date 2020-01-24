@@ -1,0 +1,9 @@
+docker run -i -t --rm alpine /bin/sh
+
+/*
+1.docker run [OPTIONS] IMAGE [COMMAND] [ARG...] runs a command in a new container.
+2.-i/--interactive keeps the STDIN open even if not attached.
+3.-t/--tty allocates a pseudo-TTY (pseudo-TTY is a pair of devices *slave & master* that provide a special sort of communication channel).
+4.--rm automatically removes the container on exit.
+5./bin/sh is the entry point
+*/

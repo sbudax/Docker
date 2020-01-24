@@ -1,0 +1,5 @@
+eval "$(docker-machine env Char)"
+
+/*
+1.connect your shell to the Char machine by setting (or -u to unset) enviroment variables.
+*/

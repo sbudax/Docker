@@ -1,0 +1,6 @@
+docker inspect --format="{{.NetworkSettings.IPAddress}}" overlord
+
+/*
+1.docker inspect [OPTIONS] NAME|ID [NAME|ID...] is used to return low level information on Docker objects
+2. --format uses Go template to format the output
+*/

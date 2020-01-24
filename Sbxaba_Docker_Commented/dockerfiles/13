@@ -1,0 +1,6 @@
+docker exec spawning-pool env
+
+/*
+1.docker exec runs a new command in a running container
+2.env displays enviroment variables
+*/

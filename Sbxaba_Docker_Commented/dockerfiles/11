@@ -1,0 +1,6 @@
+docker volume ls --quiet
+
+/*
+1.list volumes.
+2.--quiet only display volume names
+*/

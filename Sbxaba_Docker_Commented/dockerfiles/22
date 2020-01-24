@@ -1,0 +1,8 @@
+docker-machine ssh Aiur "docker swarm join --token $(docker swarm join-token worker -q) $(docker-machine ip Char):2377"
+
+/*
+1.SSH(Secure Shell/Secure Socket Shell)
+2.join swarm as a node and/or manager
+3.--Token for entry into the swarm
+4.-q/--quiet display token only
+*/

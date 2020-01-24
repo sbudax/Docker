@@ -1,0 +1,8 @@
+docker-machine create --driver virtualbox Char
+
+/*
+1.Docker Machine is a tool that lets you install Docker Engine on virtual hosts, and manage the hosts with docker-machine commands
+2.You can use Machine to create Docker hosts on your local mac/ windows/ company network/ data center and cloud providers.
+3.--driver flag to indicate which provider (VirtualBox, DigitalOcean, AWS, etc.) the machine should be created on.
+4.Char is the machine name.
+*/

@@ -1,0 +1,6 @@
+docker volume create hatchery
+
+/*
+1.creates a new volume named hatchery
+2.Volumes are preffered machanism for persisting data genereted and used by docker containers. *see bind mounts*
+*/
